@@ -143,8 +143,8 @@ $kirby->email([
   'subject' => 'Welcome!',
   'body' => 'Here are some attachments',
   'attachments' => [
-    $page->file('somefile.jpg'),
-    $page->file('someotherfile.jpg')
+    $page->files('somefile.jpg'),
+    $page->files('someotherfile.jpg')
   ]
 ]);
 ```
